@@ -1,0 +1,457 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AutoVault — Premium Automotive Collection</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,600;1,700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="logo">AUTO<span>VAULT</span></a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <label for="nav-toggle" class="nav-burger" aria-label="Buka menu">
+        <span></span><span></span><span></span>
+      </label>
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#cars">Cars</a>
+        <a href="#showcase">Showcase</a>
+        <a href="#brands">Brands</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-media">
+      <img src="https://images.unsplash.com/photo-1553440569-bcc63803a83d?w=1600&auto=format&fit=crop&q=80"
+        alt="Sports car di tengah lintasan malam hari" />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Premium Automotive Collection</p>
+      <h1>Discover Your<br />Dream Car</h1>
+      <p class="hero-desc">
+        AutoVault menghimpun kurasi mobil sport, luxury supercar, dan
+        performance terbaik dunia dalam satu tempat lengkap dengan
+        spesifikasi presisi dan visual memukau untuk setiap unit.
+      </p>
+      <div class="hero-actions">
+        <a href="#cars" class="btn btn-primary">Explore Cars</a>
+        <a href="#showcase" class="btn btn-outline">View Collection</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="cars" class="section featured">
+    <div class="section-head">
+      <h2>Featured Cars</h2>
+      <p>
+        Koleksi unit performa tinggi paling dicari dengan spesifikasi lengkap.
+      </p>
+    </div>
+
+    <div class="car-grid">
+      <article class="car-card">
+        <div class="car-photo">
+          <img src="assets/bmw_m4.jpg" alt="BMW M4 Competition Coupe" loading="lazy" />
+          <span class="car-badge">Coupe</span>
+        </div>
+        <div class="car-body">
+          <div class="car-title-row">
+            <h3>BMW M4 Competition</h3>
+            <span class="car-price">Rp 2.85 M</span>
+          </div>
+          <p class="car-type">High-Performance Sports Coupe</p>
+          <p class="car-summary">
+            Kombinasi sempurna antara agresivitas visual khas seri M dan
+            performa mesin twin-turbo buas untuk jalan raya maupun trek.
+          </p>
+          <ul class="car-specs">
+            <li><span>Engine</span>3.0L M TwinPower Turbo I6</li>
+            <li><span>Power</span>503 HP / 650 Nm</li>
+            <li><span>0–100 km/h</span>3.5 Detik</li>
+            <li><span>Top Speed</span>290 km/h</li>
+          </ul>
+          <a href="#contact" class="btn btn-line">Inquire Unit</a>
+        </div>
+      </article>
+
+      <article class="car-card">
+        <div class="car-photo">
+          <img src="assets/toyota_gr_supra.jpg" alt="Toyota GR Supra" loading="lazy" />
+          <span class="car-badge">Sports</span>
+        </div>
+        <div class="car-body">
+          <div class="car-title-row">
+            <h3>Toyota GR Supra</h3>
+            <span class="car-price">Rp 2.19 M</span>
+          </div>
+          <p class="car-type">Pure Sports Car</p>
+          <p class="car-summary">
+            Legenda sportscar Jepang yang terlahir kembali dengan distribusi
+            bobot ideal 50:50 serta respons throttle instan.
+          </p>
+          <ul class="car-specs">
+            <li><span>Engine</span>3.0L Twin-Scroll Turbo I6</li>
+            <li><span>Power</span>382 HP / 500 Nm</li>
+            <li><span>0–100 km/h</span>4.1 Detik</li>
+            <li><span>Top Speed</span>250 km/h</li>
+          </ul>
+          <a href="#contact" class="btn btn-line">Inquire Unit</a>
+        </div>
+      </article>
+
+      <article class="car-card">
+        <div class="car-photo">
+          <img src="assets/nissan_gtr.jpg" alt="Nissan GT-R Nismo R35" loading="lazy" />
+          <span class="car-badge">Performance</span>
+        </div>
+        <div class="car-body">
+          <div class="car-title-row">
+            <h3>Nissan GT-R R35</h3>
+            <span class="car-price">Rp 3.45 M</span>
+          </div>
+          <p class="car-type">Supercar Killer AWD</p>
+          <p class="car-summary">
+            Dijuluki 'Godzilla' berkat traksi AWD legendaris ATTESA E-TS dan
+            akselerasi launch control yang mencengangkan.
+          </p>
+          <ul class="car-specs">
+            <li><span>Engine</span>3.8L Twin-Turbo VR38DETT V6</li>
+            <li><span>Power</span>565 HP / 633 Nm</li>
+            <li><span>0–100 km/h</span>2.9 Detik</li>
+            <li><span>Top Speed</span>315 km/h</li>
+          </ul>
+          <a href="#contact" class="btn btn-line">Inquire Unit</a>
+        </div>
+      </article>
+
+      <article class="car-card">
+        <div class="car-photo">
+          <img src="assets/porsche_911.jpg" alt="Porsche 911 Carrera S" loading="lazy" />
+          <span class="car-badge">Icon</span>
+        </div>
+        <div class="car-body">
+          <div class="car-title-row">
+            <h3>Porsche 911 Carrera</h3>
+            <span class="car-price">Rp 4.20 M</span>
+          </div>
+          <p class="car-type">Rear-Engine Iconic Sports</p>
+          <p class="car-summary">
+            Standar emas sportscar dunia selama enam dekade dengan handling
+            presisi bedah dan mesin flat-six di buritan.
+          </p>
+          <ul class="car-specs">
+            <li><span>Engine</span>3.0L Twin-Turbo Flat-6</li>
+            <li><span>Power</span>443 HP / 530 Nm</li>
+            <li><span>0–100 km/h</span>3.5 Detik</li>
+            <li><span>Top Speed</span>308 km/h</li>
+          </ul>
+          <a href="#contact" class="btn btn-line">Inquire Unit</a>
+        </div>
+      </article>
+
+      <article class="car-card">
+        <div class="car-photo">
+          <img src="assets/mercedes_amg_gt.jpg" alt="Mercedes-AMG GT Coupe" loading="lazy" />
+          <span class="car-badge">GT</span>
+        </div>
+        <div class="car-body">
+          <div class="car-title-row">
+            <h3>Mercedes-AMG GT</h3>
+            <span class="car-price">Rp 4.80 M</span>
+          </div>
+          <p class="car-type">Grand Tourer V8 Biturbo</p>
+          <p class="car-summary">
+            Karakter suara mesin V8 handcrafted Affalterbach yang menggelegar
+            dipadu siluet hidung panjang yang elegan nan agresif.
+          </p>
+          <ul class="car-specs">
+            <li><span>Engine</span>4.0L Handcrafted AMG V8 Biturbo</li>
+            <li><span>Power</span>577 HP / 700 Nm</li>
+            <li><span>0–100 km/h</span>3.6 Detik</li>
+            <li><span>Top Speed</span>318 km/h</li>
+          </ul>
+          <a href="#contact" class="btn btn-line">Inquire Unit</a>
+        </div>
+      </article>
+
+      <article class="car-card">
+        <div class="car-photo">
+          <img src="assets/lamborghini_huracan.jpg" alt="Lamborghini Huracan EVO" loading="lazy" />
+          <span class="car-badge">Supercar</span>
+        </div>
+        <div class="car-body">
+          <div class="car-title-row">
+            <h3>Lamborghini Huracán</h3>
+            <span class="car-price">Rp 8.90 M</span>
+          </div>
+          <p class="car-type">Naturally Aspirated Supercar</p>
+          <p class="car-summary">
+            Sensasi murni raungan mesin V10 atmosferik tanpa turbo, dipadu
+            aerodinamika aktif LDVI khas pabrikan Sant'Agata.
+          </p>
+          <ul class="car-specs">
+            <li><span>Engine</span>5.2L Naturally Aspirated V10</li>
+            <li><span>Power</span>631 HP / 600 Nm</li>
+            <li><span>0–100 km/h</span>2.9 Detik</li>
+            <li><span>Top Speed</span>325 km/h</li>
+          </ul>
+          <a href="#contact" class="btn btn-line">Inquire Unit</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="showcase" class="section showcase">
+    <div class="showcase-grid">
+      <div class="showcase-photo">
+        <img src="assets/porsche_911.jpg" alt="Porsche 911 Carrera tampak samping" />
+      </div>
+      <div class="showcase-body">
+        <p class="showcase-eyebrow">Unit Unggulan Spotlight</p>
+        <h2>Porsche 911 Carrera</h2>
+        <p class="showcase-desc">
+          Sejak generasi pertamanya, 911 Carrera menjadi tolok ukur sportscar
+          dunia — perpaduan mesin flat-six legendaris khas Porsche di bagian
+          belakang, handling presisi motorsport, dan desain siluet aerodinamis
+          yang abadi selama lebih dari enam dekade.
+        </p>
+        <div class="showcase-stats">
+          <div><strong>443 HP</strong><span>Horsepower</span></div>
+          <div><strong>308 km/h</strong><span>Top Speed</span></div>
+          <div><strong>3,5 s</strong><span>0–100 km/h</span></div>
+          <div>
+            <strong>3,0L Boxer-6</strong><span>Twin-Turbo Engine</span>
+          </div>
+        </div>
+        <div class="showcase-actions">
+          <a href="#contact" class="btn btn-primary">Book Private Viewing</a>
+          <a href="#cars" class="btn btn-outline">Explore All Cars</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="brands" class="section brands">
+    <div class="section-head">
+      <h2>Curated Marques</h2>
+      <p>
+        Pabrikan terkemuka dengan standar performa dan kualitas terbaik di
+        AutoVault.
+      </p>
+    </div>
+    <div class="brand-grid">
+      <div class="brand-card">
+        <span class="brand-origin">Germany</span>
+        <span class="brand-name">BMW M</span>
+      </div>
+      <div class="brand-card">
+        <span class="brand-origin">Japan</span>
+        <span class="brand-name">Toyota GR</span>
+      </div>
+      <div class="brand-card">
+        <span class="brand-origin">Japan</span>
+        <span class="brand-name">Nissan NISMO</span>
+      </div>
+      <div class="brand-card">
+        <span class="brand-origin">Germany</span>
+        <span class="brand-name">Porsche</span>
+      </div>
+      <div class="brand-card">
+        <span class="brand-origin">Germany</span>
+        <span class="brand-name">Mercedes-AMG</span>
+      </div>
+      <div class="brand-card">
+        <span class="brand-origin">Italy</span>
+        <span class="brand-name">Lamborghini</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section why">
+    <div class="section-head">
+      <h2>Why Choose AutoVault</h2>
+      <p>
+        Pengalaman kurasi otomotif berstandar internasional untuk para
+        antusias.
+      </p>
+    </div>
+    <div class="why-grid">
+      <div class="why-card">
+        <div class="why-icon" aria-hidden="true"><span></span></div>
+        <h3>Curated Collection</h3>
+        <p>
+          Hanya menghadirkan unit mobil sport dan supercar dengan verifikasi
+          kondisi serta riwayat terbaik.
+        </p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon" aria-hidden="true"><span></span></div>
+        <h3>Verified Specifications</h3>
+        <p>
+          Data teknis mesin, dyno, akselerasi, dan fitur disajikan secara
+          transparan dan akurat.
+        </p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon" aria-hidden="true"><span></span></div>
+        <h3>VIP Showroom & Lounge</h3>
+        <p>
+          Galeri eksklusif berkonsep modern luxury untuk sesi private viewing
+          yang nyaman dan personal.
+        </p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon" aria-hidden="true"><span></span></div>
+        <h3>Dedicated Concierge</h3>
+        <p>
+          Konsultan spesialis otomotif siap mendampingi kebutuhan eksplorasi,
+          akuisisi, hingga perawatan unit.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section about">
+    <div class="about-inner">
+      <h2>About AutoVault</h2>
+      <p>
+        AutoVault adalah galeri showcase otomotif premium yang didedikasikan
+        untuk merayakan mahakarya rekayasa mesin, kecepatan, dan estetika
+        desain sportscar dunia. Kami menghubungkan para pecinta mobil dengan
+        koleksi terkurasi dari brand ternama, menghadirkan standar visual dan
+        informasi kelas dunia dalam satu destinasi otomotif.
+      </p>
+    </div>
+  </section>
+
+  <!-- Showcase Information Section (Replaced Contact Form) -->
+  <section id="contact" class="section contact">
+    <div class="section-head contact-head">
+      <p class="hero-eyebrow">Showroom & Inquiries</p>
+      <h2>AutoVault Showcase Center</h2>
+      <p>
+        Kunjungi gallery eksklusif kami atau hubungi dedicated concierge untuk
+        reservasi private viewing dan konsultasi koleksi.
+      </p>
+    </div>
+
+    <div class="showcase-info-grid">
+      <div class="info-card location-card">
+        <div class="info-badge">Flagship Gallery</div>
+        <h3>Showroom & Private Lounge</h3>
+        <p class="info-address">
+          <strong>AutoVault Pavilion</strong><br />
+          Jl. Jendral Sudirman Kav. 52–53, SCBD Lot 8<br />
+          Kebayoran Baru, Jakarta Selatan 12190
+        </p>
+        <div class="info-highlights">
+          <span class="tag">Private Underground Vault</span>
+          <span class="tag">VIP Viewing Room</span>
+          <span class="tag">Valet Available</span>
+        </div>
+        <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline info-btn">
+          Petunjuk Arah Google Maps
+        </a>
+      </div>
+
+      <div class="info-card hours-card">
+        <div class="info-badge">Operational Hours</div>
+        <h3>Jam Kunjungan Gallery</h3>
+        <ul class="schedule-list">
+          <li>
+            <span>Senin - Jumat</span>
+            <strong>09:00 – 20:00 WIB</strong>
+          </li>
+          <li>
+            <span>Sabtu - Minggu</span>
+            <strong>10:00 – 18:00 WIB</strong>
+          </li>
+          <li>
+            <span>VIP Private Session</span>
+            <strong class="highlight-text">By Appointment (24/7)</strong>
+          </li>
+        </ul>
+        <p class="schedule-note">
+          *Untuk sesi private viewing tertutup di luar jam operasional,
+          silakan hubungi concierge kami 24 jam sebelumnya.
+        </p>
+      </div>
+
+      <div class="info-card channels-card">
+        <div class="info-badge">Direct Concierge</div>
+        <h3>Kontak & Reservasi</h3>
+        <div class="contact-channels">
+          <div class="channel-item">
+            <div class="channel-icon">WA</div>
+            <div class="channel-text">
+              <span class="channel-label">WhatsApp VIP Concierge</span>
+              <a href="https://wa.me/6281188992886" target="_blank" rel="noopener noreferrer" class="channel-value">+62
+                811-8899-AUTO (2886)</a>
+            </div>
+          </div>
+          <div class="channel-item">
+            <div class="channel-icon">TEL</div>
+            <div class="channel-text">
+              <span class="channel-label">Showroom Direct Line</span>
+              <a href="tel:+622157988000" class="channel-value">(021) 579-8800</a>
+            </div>
+          </div>
+          <div class="channel-item">
+            <div class="channel-icon">@</div>
+            <div class="channel-text">
+              <span class="channel-label">Official Correspondence</span>
+              <a href="mailto:concierge@autovault.co.id" class="channel-value">concierge@autovault.co.id</a>
+            </div>
+          </div>
+        </div>
+        <div class="channel-actions">
+          <a href="https://wa.me/6281188992886" target="_blank" rel="noopener noreferrer"
+            class="btn btn-primary info-btn">
+            Chat Concierge WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <p class="logo">AUTO<span>VAULT</span></p>
+        <p>
+          Showcase otomotif terdepan untuk pecinta mobil sport, supercar, dan
+          kendaraan performa tinggi.
+        </p>
+      </div>
+      <nav class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#cars">Cars</a>
+        <a href="#showcase">Showcase</a>
+        <a href="#brands">Brands</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="footer-social">
+        <a href="#">Instagram / @autovault.id</a>
+        <a href="#">YouTube / AutoVault Media</a>
+        <a href="#">Twitter / @autovault</a>
+      </div>
+    </div>
+    <p class="footer-copy">© 2026 AutoVault Showcase. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
